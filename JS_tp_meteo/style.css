@@ -1,0 +1,10 @@
+body {
+	background : linear-gradient(45deg, #0e0a46, #7d1383, #8b1348);
+	color: white;
+}
+
+ol {
+	margin: 1px;
+	padding: 1px;
+	font-size: 0.75em;
+}
