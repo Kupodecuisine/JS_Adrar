@@ -1,0 +1,20 @@
+#btJ{
+    visibility: hidden;
+}
+#nomCarteJ{
+    color: springgreen;
+}
+#valueCarteJ{
+    color: springgreen;
+}
+#resultat{
+    color: firebrick;
+}
+#btReset{
+    visibility: hidden;
+}
+
+
+body {
+	background-color: purple;
+}

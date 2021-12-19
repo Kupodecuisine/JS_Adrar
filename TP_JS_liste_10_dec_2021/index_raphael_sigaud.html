@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exo Liste</title>
+</head>
+<body>
+	<h1>Liste d'utilisateur</h1>
+	
+	<form method="POST" action="exo.php">
+		<label for="prenom">prénom : </label>
+		<input type="text" name="prenom" id="prenom"/>
+		
+		<label for="age">âge : </label>
+		<input type="number" name="age" id="age"/>
+		
+		<label for="role">rôle : </label>
+		<select name="role" id="role">
+			<option value="utilisateur">utilisateur</option>
+			<option value="administrateur">administrateur</option>
+		</select>
+		
+		<input type="button" value="créer" id="creer"/>		
+	</form>
+	
+	<div>
+	
+		<input type="button" value="Tri par ID" id="triId"/>
+		<input type="button" value="Tri par prénom" id="triPrenom"/>
+		<input type="button" value="Tri par âge" id="triAge"/>
+		<label for="searchBar">Recherche : </label>
+		<input type="search" id="searchBar"/>
+		
+		
+	</div>
+	
+	<div id="usersList"></div>
+	<script src="exoList_raphael_sigaud.js"></script>
+</body>
+</html>
