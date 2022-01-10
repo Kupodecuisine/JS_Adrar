@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css">
+		<title></title>
+	</head>
+	
+	<body>
+	<h2>Créer un utilisateur : </h2>
+	
+	<form method="post" >
+		<p>Saisir un nom : </p>
+		<input type="txt" id="name"/>
+		
+		<p> Saisir un prénom :</p>
+		<input type="txt" id="firstName"/>
+		
+		<p> Saisir un login :</p>
+		<input type="txt" id="login"/>
+		
+		<p> Saisir un mot de passe :</p>
+		<input type="txt" id="mdp"/>
+		
+		<input type="button" value="ajouter" onclick="ajouter()"/>
+	</form>
+	
+	<h3 id="error"></h3>
+	
+	<h2>Liste des comptes utilisateurs créés : </h2>
+	
+	<h3 id="nbrCompte"></h3>
+	
+	<p id="resultat"></p>
+	
+	<script type="text/javascript" src="main.js"></script>
+	
+	</body>
+</html>
