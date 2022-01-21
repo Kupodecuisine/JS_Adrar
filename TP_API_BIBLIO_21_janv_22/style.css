@@ -1,0 +1,40 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+div{
+	text-align: center;
+	border : solid 1px white;
+	border-radius : 30px;
+	padding : 5px;
+	margin-right : 75px;
+	margin-left : 75px;
+	margin-bottom : 25px;
+}
+
+h1{
+	text-align: center;
+}
+
+section{
+	background-color: #121212;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	height : 400px;
+	width : 600px;
+	border : solid 1px white;
+	border : solid 1px white;
+	border-radius : 30px;
+}
+
+section:hover{
+	background-color: #2C2C2C;
+}
+
+input:hover{
+	background-color: black;
+	color: white;
+}
